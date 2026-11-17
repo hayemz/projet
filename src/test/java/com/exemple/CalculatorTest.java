@@ -46,12 +46,6 @@ public class CalculatorTest {
     }
 
     @Test
-    void testMultiplication() {
-        assertEquals(6, calculatrice.multiplication(2, 3));
-        // ... existing lines ...
-    }
-
-    @Test
     void testNouvelleFonction() {
         // Test d'une opération simple
         assertEquals(10, calculatrice.multiplication(2, 5));
