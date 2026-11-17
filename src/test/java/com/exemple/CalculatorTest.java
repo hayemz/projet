@@ -44,7 +44,7 @@ public class CalculatorTest {
         });
         assertEquals("Division par zéro impossible", exception.getMessage());
     }
-}
+
     @Test
     void testMultiplication() {
         assertEquals(6, calculatrice.multiplication(2, 3));
